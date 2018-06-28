@@ -36,4 +36,10 @@ public abstract class Employee {
         return salary += salary*0.01;
     }
 
+    public void setName(String newName){
+        if (newName != null) {
+            name = newName;
+        }
+    }
+
 }

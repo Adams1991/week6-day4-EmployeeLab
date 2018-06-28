@@ -50,4 +50,10 @@ public class DirectorTest {
             assertEquals(1000000, director.getBudget(), 0.01);
         }
 
+        @Test
+        public void canSetName(){
+            director.setName("Jack");
+            assertEquals("Jack", director.getName());
+        }
+
     }
