@@ -15,4 +15,13 @@ import Staff.Employee;
         public double getBudget() {
             return budget;
         }
+
+
+        @Override
+        public double payBonus() {
+            return salary += salary*0.02;
+        }
+
+
+
     }
