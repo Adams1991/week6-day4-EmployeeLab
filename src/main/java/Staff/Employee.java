@@ -29,7 +29,7 @@ public abstract class Employee {
     }
 
     public double payBonus() {
-        return salary + salary*0.01;
+        return salary += salary*0.01;
     }
 
 }
